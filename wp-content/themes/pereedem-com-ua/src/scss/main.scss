@@ -1,0 +1,18 @@
+$px: .06945;
+$pxmf: 3.841;
+$pxm: $px * $pxmf;
+
+@font-face {
+  font-family: 'Aliceregular';
+  src: url("../../fonts/Aliceregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Harrington';
+  src: url("../../fonts/Harrington.ttf") format("truetype");
+}
+
+body {
+  width: 100%;
+  margin: 0;
+}
