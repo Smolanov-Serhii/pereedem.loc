@@ -23,7 +23,8 @@ const styleFiles = [
    './src/scss/main.scss',
    './src/scss/slick.scss',
    './src/scss/slick-theme.scss',
-   './src/scss/media.css'
+   './src/scss/animate.scss',
+   './src/scss/media.scss'
 
 ]
 //Порядок подключения js файлов

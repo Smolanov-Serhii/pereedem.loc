@@ -22,3 +22,29 @@ $(document).ready(function () {
 
 });
 
+$('.button-zakaz, .button-zakaz_reklama').click(function() {
+    $('div.forma-top').show();
+    $('.modal').removeClass('blur');
+    $('.forma-top::before').addClass('blure');
+});
+
+$('.forma-top-cencel').click(function() {
+    $('div.forma-top').hide();
+    $('.forma-top::before').removeClass('blure');
+});
+
+$('.phone_btton_click').click(function() {
+    $('.phone_choise_phone').removeClass('phone_choise_phone-hide');
+    $('.phone_btton_click').addClass('phone_choise_phone-hide');
+    $('.phone_choise-action').removeClass('phone_choise');
+    $('.phone_choise-action').addClass('phone_choise-click');
+    $('.button-cancel').removeClass('phone_choise_phone-hide');
+});
+
+$('.button-cancel').click(function() {
+    $('.phone_choise_phone').addClass('phone_choise_phone-hide');
+    $('.phone_btton_click').removeClass('phone_choise_phone-hide');
+    $('.phone_btton_click').removeClass('phone_choise-click');
+    $('.phone_btton_click').addClass('phone_choise');
+    $('.button-cancel').addClass('phone_choise_phone-hide');
+});

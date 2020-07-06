@@ -1,0 +1,1212 @@
+@media all and (max-width: 1100px) and (min-width: 930px)
+
+{
+.container{
+  width: 860px !important;
+
+}
+.table_header table {
+  font-size: 22px;
+
+}
+.container_header_flex {
+  width: 90%;
+  margin:auto;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+      justify-content:space-between;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+      flex-direction:row;
+
+}
+.class-width {
+  width: 100%;
+  margin:auto;
+
+}
+.reklama_single p {
+  margin: 5px auto;
+  text-align:center;
+  font-size: 24px;
+
+}
+.tarif_price {
+  font-size: 90px !important;
+  color:red;
+  text-align:center;
+
+}
+.button-zakaz_reklama {
+  width: 80%;
+  margin:auto;
+  height: 60px;
+  color:white;
+  background-color: #7DDA03 !important;
+  border-radius: 10px;
+  text-align:center;
+  line-height: 60px;
+  font-size: 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}
+}
+@media all and (max-width: 1110px) and (min-width: 919px)
+
+{
+.header_nav li a {
+  font-size: 18px;
+  padding: 10px;
+  line-height: 26px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor:pointer;
+
+}
+}
+@media all and (max-width: 929px) and (min-width: 660px)
+
+{
+.container{
+  max-width: 860px !important;
+  width: 90% !important;
+
+}
+.ablolute_price_gruz .absolute_price {
+  color:red;
+  font-size: 49px;
+
+}
+.absolute_description {
+  line-height: 70px;
+  font-size: 20px;
+
+}
+.devider .container h1 {
+  max-width: 100%;
+  margin: auto !important;
+
+}
+.class-flex{
+  justify-content:center;
+  text-align:center;
+
+}
+.group{
+  width: 87%;
+
+}
+.table_header table {
+  font-size: 17px;
+
+}
+h6 {
+  text-align:center;
+
+}
+.logo img {
+  width: 300px;
+
+}
+.header_nav li a {
+  font-size: 24px;
+
+}
+.contacts_phones{
+  display:none;
+
+}
+.content-header-text{
+  font-size: 24px;
+
+}
+.class-width{
+  width: 100%;
+
+}
+.content-header{
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+
+}
+.price-single-car-row{
+      flex-direction:column;
+
+}
+.price-single-car-row-gruz{
+      align-items:center;
+
+}
+.price-single-car-row-img > img {
+  margin: 30px auto 19px;
+
+}
+.content-single-our-service{
+    flex-direction:column;
+    flex-wrap: wrap !important;
+
+}
+.content-our-service{
+  width: 80%;
+  margin: 20px auto;
+
+}
+.footer-all-content{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.footer-left-side{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -ms-flex-line-pack:center;
+    align-content:center;
+
+}
+.footer-nav {
+  margin:auto;
+
+}
+.header-button{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.content-header-text{
+  font-size: 36px;
+
+}
+.content-our-service{
+  font-size: 30px;
+
+}
+.img-ou-service{
+  width: 80%;
+
+}
+.opisanie_avtopark{
+  width: 80% !important;
+  margin:auto;
+  font-weight: 800;
+  font-size: 30px;
+
+}
+.content-our-service{
+  margin: 0px auto;
+  padding: 0px;
+
+}
+.section-row{
+  padding: 0px !important;
+
+}
+.footer-nav ul li a {
+  font-size: 26px;
+
+}
+.single-car{
+  width: 84%;
+  margin: 30px auto;
+
+}
+.single-car-top-row{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.single-car-top-row-foto{
+  text-align:center;
+
+}
+.single-car-bottom-row{
+  display:block;
+  font-size: 20px;
+
+}
+.header-button > .header-button-text {
+  font-size: 30px;
+  width: 90%;
+  color:white;
+
+}
+.logo img {
+  width: 300px;
+  margin-top: 30px;
+
+}
+.copyright{
+  font-size: 2em;
+  height: 50px;
+  line-height: 50px;
+
+}
+.phone a h6 {
+  font-size: 40px;
+
+}
+.single-car-top-row-description{
+  font-size: 20px;
+
+}
+.single-car-top-row-description > span {
+  display:block;
+  font-size: 30px;
+
+}
+.single-car-bottom-row-description{
+  font-size: 30px;
+
+}
+.price-single-car-row-table table {
+  font-size: 22px;
+
+}
+.price-single-car-row-table{
+  width: 90%;
+
+}
+.odd-range, .even-range{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+
+}
+.benefits__inner{
+
+}
+.benefits__icon{
+  height: 100px;
+
+}
+.pre-service-container-text{
+  width: 70%;
+    margin:auto;
+
+}
+.containes-single-servise-content{
+  margin-top: -64px;
+
+}
+.even-range img {
+  margin-right:auto;
+
+}
+.odd-range img {
+  -webkit-transform: scale(1, 1) !important;
+    transform: scale(1, 1) !important;
+  margin-left:auto;
+
+}
+div.additional-services{
+  width: 80% !important;
+
+}
+.additional-services-description-content{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.additional-services-description-content-container{
+  width: 100%;
+  margin: 20px auto
+
+}
+.footer-content{
+  width: 80% !important;
+
+}
+.single-car-top-row-foto img {
+  width: 350px;
+
+}
+.phone_choise{
+position:fixed;
+bottom: 30px;
+right: 0px;
+text-align:right;
+display:-webkit-box;
+display:-ms-flexbox;
+  display:flex;
+    -ms-flex-pack:distribute;
+      justify-content:space-around;
+
+  margin: 0 30px;
+    -webkit-box-align:center;
+      -ms-flex-align:center;
+        align-items:center;
+
+}
+.phone_choise-click{
+  width: 100%;
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  text-align:right;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack:distribute;
+    justify-content:space-around;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+  background-color:white;
+  color:black;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+  z-index: 1000;
+
+}
+.phone_choise_phone-hide{
+  display:none;
+
+}
+.phone_choise_phone-show{
+  display:block;
+
+}
+.phone_choise_phone > a {
+  text-align:right;
+  color:red;
+  font-size: 30px;
+  margin: 10px 0;
+  float:none;
+  font-weight: 600;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  margin: 20px 20px;
+
+}
+.phone_btton_click{
+  background-image: url("../img/phone_button.svg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+  float:right;
+  float:none;
+
+}
+.button-cancel{
+  position:fixed;
+  background-image: url("../img/cancel.svg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius: 50%;
+  background-color:white;
+  width: 60px;
+  height: 60px;
+  bottom: 148px;
+  right: 10px;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+
+}
+.benefits__inner{
+  width: 94%;
+
+}
+.container_header_flex {
+  width: 90%;
+  margin:auto;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+      justify-content:space-between;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+      flex-direction:row;
+
+}
+.class-width {
+  width: 100%;
+  margin:auto;
+
+}
+.reklama_single > span {
+  width: 100%;
+  height: 150px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+
+}
+.reklama_single {
+  width: 32%;
+  background-color:white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+
+}
+.reklama_single p {
+  margin: 5px auto;
+  text-align:center;
+  font-size: 24px;
+
+}
+.tarif_price {
+  font-size: 90px !important;
+  color:red;
+  text-align:center;
+
+}
+.button-zakaz_reklama {
+  width: 80%;
+  margin:auto;
+  height: 60px;
+  color:white;
+  background-color: #EF7300;
+  border-radius: 10px;
+  text-align:center;
+  line-height: 60px;
+  font-size: 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+
+}
+}
+
+@media all and (max-width: 659px) and (min-width: 300px)
+
+{
+.container{
+  max-width: 860px !important;
+  width: 90% !important;
+
+}
+.reklama_single_gruzchiki > span {
+  margin: 5px 5px;
+
+}
+.content-our-service p {
+  width: 100%;
+
+}
+.content-header-text_about {
+  font-size: 24px;
+  margin-bottom: 100px;
+  color:white;
+
+}
+.content-header-text > .text {
+  color:white;
+  font-size: 24px;
+
+}
+.devider .container h1 {
+  margin: auto !important;
+  font-size: 20px !important;
+
+}
+.list-of-service h5 {
+  color:black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform:lowercase;
+  padding-left: 5px;
+  line-height: 30px;
+
+}
+.ablolute_price_gruz .absolute_price {
+  color:red;
+  font-size: 34px;
+
+}
+.absolute_description {
+  line-height: 50px;
+  font-size: 11px;
+
+}
+.first-child {
+  width: 30%;
+
+}
+.group {
+  width: 70%;
+
+}
+.table_header table {
+  font-size: 10px;
+
+}
+.tarif_description{
+  font-size: 14px !important;
+
+}
+.class-flex{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -webkit-box-pack:center;
+    -ms-flex-pack:center;
+      justify-content:center;
+  text-align:center;
+
+}
+h6 {
+  text-align:center;
+
+}
+.logo img {
+  width: 300px;
+
+}
+.header_nav li a {
+  font-size: 14px;
+  padding: 20px 8px;
+
+}
+.contacts_phones{
+  display:none;
+
+}
+.content-header-text{
+  font-size: 24px;
+
+}
+.class-width{
+  width: 100%;
+
+}
+.content-header{
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+
+}
+.content-header_about{
+  padding: 20px;
+  width: 80%;
+  margin: 10px auto;
+
+}
+.price-single-car-row{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.price-single-car-row-gruz{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+
+}
+.price-single-car-row-img > img {
+  margin: 30px auto 19px auto;
+  width: 250px;
+
+}
+.content-single-our-service{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+
+}
+.content-single-our-service:first-child{
+  width: 100% !important;
+
+}
+.content-our-service{
+  width: 100%;
+  margin: 20px auto;
+
+}
+.img-ou-service img {
+  width: 100%;
+  height:auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+
+}
+.footer-all-content{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.footer-left-side{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -ms-flex-line-pack:center;
+    align-content:center;
+
+}
+.footer-nav {
+  margin:auto;
+
+}
+.header-button{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.content-header-text{
+  font-size: 20px;
+
+}
+.content-our-service{
+  font-size: 18px;
+
+}
+.img-ou-service{
+  width: 100%;
+
+}
+.opisanie_avtopark{
+  width: 90% !important;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 20px auto;
+
+}
+.content-our-service{
+  margin: 0px auto;
+  padding: 0px;
+
+}
+.section-row{
+  padding: 0px !important;
+
+}
+.footer-nav ul li a {
+  font-size: 14px;
+
+}
+.single-car{
+  width: 100%;
+  margin: 30px auto;
+
+}
+.single-car-top-row{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.single-car-top-row-foto{
+  text-align:center;
+
+}
+.single-car-bottom-row{
+  display:block;
+  font-size: 16px;
+
+}
+.header-button > .header-button-text {
+  font-size: 20px;
+  width: 90%;
+  color:white;
+
+}
+.logo img {
+  width: 200px;
+  margin-top: 30px;
+
+}
+.copyright{
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+
+}
+.phone a h6 {
+  font-size: 30px;
+
+}
+.single-car-top-row-description{
+  font-size: 20px;
+
+}
+.single-car-top-row-description > span {
+  display:block;
+  font-size: 16px;
+
+}
+.single-car-bottom-row-description{
+  font-size: 14px;
+
+}
+.price-single-car-row-table table {
+  font-size: 14px;
+
+}
+.price-single-car-row-table{
+  width: 100%;
+
+}
+.odd-range, .even-range{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+
+}
+.benefits__inner{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+
+}
+.benefits__icon{
+  height: 100px;
+  margin-bottom: 0px;
+
+}
+.pre-service-container-text{
+  width: 70%;
+    margin:auto;
+    font-size: 20px;
+
+}
+.containes-single-servise-content{
+  margin-top: -64px;
+  margin-left: 0px;
+
+}
+.even-range img {
+  margin-right:auto;
+  width: 320px;
+
+}
+.odd-range img {
+  -webkit-transform: scale(1, 1) !important;
+    transform: scale(1, 1) !important;
+  margin-left:auto;
+  width: 320px;
+
+}
+div.additional-services{
+  width: 90% !important;
+
+}
+.additional-services article {
+  font-size: 16px;
+
+}
+.additional-services-description-content{
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+      flex-direction:column;
+
+}
+.additional-services-description-content-container{
+  width: 100%;
+  margin: 20px auto
+
+}
+.footer-content{
+  width: 80% !important;
+
+}
+.single-car-top-row-foto img {
+  width: 75%;
+
+}
+.phone_choise{
+  position:fixed;
+  bottom: 15px;
+  right: 15px;
+  text-align:right;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack:distribute;
+    justify-content:space-around;
+  margin: 0 0px;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+  z-index: 100;
+
+}
+.phone_choise-click{
+  width: 100%;
+  position:fixed;
+  bottom: 0px;
+  right: 0px;
+  text-align:right;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-pack:distribute;
+    justify-content:space-around;
+  -webkit-box-align:center;
+    -ms-flex-align:center;
+      align-items:center;
+  background-color:white;
+  color:black;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+  z-index: 1000;
+
+}
+.phone_choise_phone-hide{
+  display:none;
+
+}
+.phone_choise_phone-show{
+  display:block;
+
+}
+.phone_choise_phone > a {
+  text-align:right;
+  color:red;
+  font-size: 26px;
+  margin: 10px 0;
+  float:none;
+  font-weight: 600;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  margin: 20px 20px;
+
+}
+.phone_btton_click{
+  background-image: url("../img/phone_button.svg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+  float:right;
+  float:none;
+
+}
+.button-cancel{
+  position:fixed;
+  background-image: url("../img/cancel.svg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  border-radius: 50%;
+  background-color:white;
+  width: 60px;
+  height: 60px;
+  bottom: 148px;
+  right: 10px;
+  -webkit-box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 -1px 10px rgba(0, 0, 0, 0.22);
+
+}
+.content-header-text{
+  margin-bottom: 50px;
+
+}
+.header-button-button .button-zakaz{
+  width: 310px;
+  font-size: 19px;
+
+}
+.price-single-car-row-img{
+  text-align:center;
+
+}
+.price-single-car-row-img{
+  width: 100%;
+
+}
+.footer-nav ul li a {
+  margin:auto 6px;
+
+}
+.footer-nav ul {
+  padding: 0px;
+
+}
+div.forma-top > form {
+  width: 326px;
+  margin: 5% auto;
+
+}
+div.forma-top > form > input {
+  font-size: 20px;
+
+}
+div.forma-top > form > span {
+  font-size: 27px;
+
+}
+.benefits__element{
+  width: 100%
+
+}
+.benefits__header{
+  font-size: 40px;
+
+}
+.phone_choise_phone{
+  margin:auto;
+
+}
+h1 {
+  font-size: 26px !important;
+
+}
+.devider .container h1 {
+  margin: auto !important;
+
+}
+.phone_btton_click{
+  z-index: 100;
+
+}
+.description-of-service{
+  font-size: 20px;
+
+}
+.even-range{
+
+}
+.odd-range, .even-range{
+  -webkit-box-align:start;
+    -ms-flex-align:start;
+      align-items:flex-start;
+  margin-left: 26px;
+
+}
+section.services{
+  display:block;
+  padding-bottom: 20px;
+
+}
+.pre-footer{
+  background-position-x: -442px;
+
+}
+div.forma-top{
+  height: 100%;
+
+}
+#header_about{
+  background-position-x: -914px;
+
+}
+div.forma-top > form > input {
+  width: 90%;
+    height: 34px;
+    margin: 7px auto;
+
+}
+div.forma-top > form {
+  height:auto;
+
+}
+.forma-top .phone a h6 {
+  font-size: 24px;
+  color:black;
+  text-decoration: none !important;
+  cursor:pointer;
+
+}
+.forma-top .phone a {
+font-size: 24px;
+color:black;
+text-decoration: none !important;
+}
+.forma-top .phone a:active{
+  color:black;
+  text-decoration:none;
+
+}
+.forma-top .phone a:visited{
+  color:black;
+  text-decoration:none;
+
+}
+.benefits__inner{
+  width: 94%;
+
+}
+.container_header_flex {
+  width: 90%;
+  margin:auto;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:justify;
+    -ms-flex-pack:justify;
+      justify-content:space-between;
+  -webkit-box-orient:horizontal;
+  -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+      flex-direction:row;
+
+}
+.class-width {
+  width: 100%;
+  margin:auto;
+
+}
+.reklama_single > span {
+  width: 100%;
+  height: 74px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+
+}
+.reklama_single {
+  width: 32%;
+  background-color:white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+
+}
+.reklama_single p {
+  margin: 1px auto;
+  text-align:center;
+  font-size: 17px;
+
+}
+.tarif_price {
+  font-size: 90px !important;
+  color:red;
+  text-align:center;
+
+}
+.button-zakaz_reklama {
+  width: 80%;
+  /* margin: auto; */
+  height: 40px;
+  color:white;
+  background-color: #7DDA03 !important;
+  border-radius: 7px;
+  text-align:center;
+  line-height: 60px;
+  font-size: 13px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  line-height: 19px;
+  margin:auto;
+  text-align:center;
+  /* vertical-align: middle; */
+  display:block;
+
+}
+h2.teg_h1 {
+  color: #EF7300;
+  text-align:center;
+  margin: 0 auto;
+  font-size: 27px !important;
+
+}
+.tarif_price {
+  font-size: 48px !important;
+  color:red;
+  text-align:center;
+
+}
+.footer-content-article-span {
+  color:white;
+  font-size: 44px;
+  width: 200px;
+  display:block;
+  margin-top: 100px;
+
+}
+.bottom_batton{
+display:block;
+position:fixed;
+bottom: 15px;
+left: 15px;
+height: 50px;
+width: 50px;
+background-color:grey;
+background-image: url(../img/left_bottom_button.svg);
+background-position:center;
+background-size:cover;
+background-repeat:no-repeat;
+border-radius: 10px;
+list-style:none;
+z-index: 999;
+cursor:pointer;
+}
+.bottom_batton::before{
+  content: "";
+  display:block;
+  position:fixed;
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  background-color:grey;
+  background-image: url(../img/left_bottom_button.svg);
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  border-radius: 10px;
+  list-style:none;
+  z-index: 999;
+  cursor:pointer;
+
+}
+.bottomLeft .submenu li {
+  width: 50px;
+  height: 50px;
+  background-color:white;
+  border-radius: 10px;
+  border: 1px solid grey;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  cursor:pointer;
+
+}
+.bottomLeft .submenu{
+  padding-left: 10px;
+
+}
+}

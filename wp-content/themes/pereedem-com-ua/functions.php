@@ -149,7 +149,8 @@ add_action( 'widgets_init', 'pereedem_com_ua_widgets_init' );
  * Enqueue scripts and styles.
  */
 function pereedem_com_ua_scripts() {
-	wp_enqueue_style( 'pereedem-com-ua-style', get_stylesheet_uri(), array(), _S_VERSION );
+    wp_enqueue_style('pereedem-com-ua-style', get_template_directory_uri() . '/dist/css/style.css', array(), '1.0.0', false);
+    wp_enqueue_script('pereedem-com-ua-navigation', get_template_directory_uri() . '/dist/js/common.js', array(), '1.0.0', true);
 	wp_style_add_data( 'pereedem-com-ua-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'pereedem-com-ua-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

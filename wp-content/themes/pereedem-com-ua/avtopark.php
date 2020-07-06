@@ -23,29 +23,7 @@
 </head>
 <body>
 	<section id="header_avtopark">
-		<div class="container class-flex">
-			<section class="logo">
-				<div class="img_logo">
-					<img src="img/logo.svg" alt="Логотип https://pereedem.kiev.ua">
-				</div>
-			</section>
-			<section class="nav">
-				<ul class="header_nav">
-					<li class="nav_element "><a href="https://pereedem.kiev.ua/index.html">Гланая</a></li>
-					<li class="nav_element "><a href="https://pereedem.kiev.ua/about.html">О нас</a></li>
-					<li class="nav_element"><a class="selected" href="https://pereedem.kiev.ua/avtopark.html">Автопарк</a></li>
-					<li class="nav_element"><a href="https://pereedem.kiev.ua/services.html">Услуги</a></li>	
-					<li class="nav_element"><a href="https://pereedem.kiev.ua/price.html">Цены</a></li>	
-				</ul>
-			</section>
-			<section class="contacts">
-				<div class="contacts_phones">
-					<div class="phone"><a href="tel: +380667159235"><h6>+38 (066) 715-92-35</h6></a></div>
-					<div class="phone"><a href="tel: +380639377790"><h6>+38 (063) 937-77-90</h6></a></div>
-					<div class="phone"><a href="tel: +380974114720"><h6>+38 (097) 411-47-20</h6></a></div>
-				</div>
-			</section>
-		</div>
+		<?php get_header(); ?>
 		<div class="class-width">
 			<section class="content-header">
 				<div class="content-header-text">
