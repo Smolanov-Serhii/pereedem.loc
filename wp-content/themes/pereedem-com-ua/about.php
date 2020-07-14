@@ -1,51 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta http-equiv="cache-control" content="no-cache">
-	<meta http-equiv="expires" content="0">
-	<meta name="robots" content="index, follow" />
-	<meta name="googlebot" content="index, follow" />
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="google-site-verification" content="ky8a49fwo4gLE_YLsn_ll3P6RDhibFgV32kIJIJXFO4" />
-	<meta name="Keywords" content="грузове такси Киев, грузове такси,перевезти диван киев, перевозка холодильника, квартирний переїзд киев недорого, грущики київ недорого,перевозки, киев, грузоперевозки, Грузоперевозки Киев, Грузоперевозки киев, машины, мебель, перевезти мебель, переезд, переехать, грузчики, грузчик, пианино, перевезти рояль, переезд, перевезти диван, перевести стройматериалы, стройматериалы, диван, газель, груз, машина, доставка, стройматериалы, перевозки Киев, перевозки недорого, грузоперевозки, грузоперевозки 90 грн/час, грузоперевозки 100 грн/час, грузоперевозки 110 грн/час, грузоперевозки 120 грн/час, грузоперевозки 140 грн/час, грузоперевозки киев, грузоперевозки по киеву, грузоперевозки по украине, грузоперевозки в киеве, грузоперевозка киев, перевозки киев, перевозки, грузовое такси, недорого, пригород, грузы, доставка, перевозки olx, перевозки олх, автомобильный груз перевозка, грузоперевозки +по украине, газель заказывать, газель перевозка, груз доставка, груз перевозка, грузовой перевозка, грузовой такси, грузоперевозка километр, грузоперевозки, грузоперевозки +по украине транс, грузоперевозки +по украине цены, грузоперевозки 2019, грузоперевозки газель, грузоперевозки грузов, грузоперевозки какие, грузоперевозки киев, грузоперевозки недорого, грузоперевозки тонна, грузоперевозки цена, грузоперевозки цена +за километр, грузчик услуга, делл грузоперевозки, делла грузоперевозки, диспетчер грузоперевозок, квартирный переезд, километр грузоперевозки украине, ларди грузоперевозки, ларди грузоперевозки +по украине, ларди транс грузоперевозки, ларди транс грузоперевозки +по украине, мебель перевозка, найти грузоперевозку, объявления грузоперевозки, транс грузоперевозки, транспортный компания, транспортный услуга, фирмы грузоперевозок">
-	<meta name="description" content="Низкие цены на грузоперевозки по Киеву и области. Перевозка корпусной мебели, мягкой мебели, предметов быта. Квартирный переезд">
-	<link rel="canonical" href="https://pereedem.kiev.ua" />
-	<link rel="shortcut icon" href="img/icon.ico" type="image/icon">
-	<title>О компании Pereedem.kiev.ua</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="css/animate.css" rel="stylesheet" type="text/css">
-	<link href="css/reset.css" rel="stylesheet" type="text/css">
-	<link href="css/media.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-</head>
-<body>
-	<section id="header_about">
-		<div class="container class-flex">
-			<section class="logo">
-				<div class="img_logo">
-					<img src="img/logo.svg" alt="Логотип https://pereedem.kiev.ua">
-				</div>
-			</section>
-			<section class="nav">
-				<ul class="header_nav">
-					<li class="nav_element "><a href="https://pereedem.kiev.ua/index.html">Гланая</a></li>
-					<li class="nav_element "><a class="selected" href="https://pereedem.kiev.ua/about.html">О нас</a></li>
-					<li class="nav_element"><a href="https://pereedem.kiev.ua/avtopark.html">Автопарк</a></li>
-					<li class="nav_element"><a href="https://pereedem.kiev.ua/services.html">Услуги</a></li>	
-					<li class="nav_element"><a href="https://pereedem.kiev.ua/price.html">Цены</a></li>	
-				</ul>
-			</section>
-			<section class="contacts">
-				<div class="contacts_phones">
-					<div class="phone"><a href="tel: +380667159235"><h6>+38 (066) 715-92-35</h6></a></div>
-					<div class="phone"><a href="tel: +380639377790"><h6>+38 (063) 937-77-90</h6></a></div>
-					<div class="phone"><a href="tel: +380974114720"><h6>+38 (097) 411-47-20</h6></a></div>
-				</div>
-			</section>
-		</div>
+<?php
+/**
+ * The main template file
+ * Template Name: О нас
+ * This is the most generic template file in a WordPress theme
+ * and one of the two required files for a theme (the other being style.css).
+ * It is used to display a page when nothing more specific matches a query.
+ * E.g., it puts together the home page when no home.php file exists.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package pereedem.com.ua
+ */
+
+
+?>
+<?php get_header(); ?>
+
 		<div class="class-width">
 			<section class="content-header_about">
 				<div class="content-header-text_about">

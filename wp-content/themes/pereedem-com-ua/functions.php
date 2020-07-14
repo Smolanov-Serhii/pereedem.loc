@@ -7,6 +7,7 @@
  * @package pereedem.com.ua
  */
 
+
 function add_file_types_to_uploads($file_types){
     $new_filetypes = array(); $new_filetypes['svg'] =
         'image/svg+xml'; $file_types = array_merge($file_types,

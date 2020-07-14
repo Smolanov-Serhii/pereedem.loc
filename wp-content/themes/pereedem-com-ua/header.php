@@ -10,7 +10,6 @@
  */
 
 ?>
-<!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -21,28 +20,13 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
+<body>
+<?php ?>
+<section id="header" style="background-image: url('<?php the_post_thumbnail_url(); ?>');">
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'pereedem-com-ua' ); ?></a>
-    <div class="container class-flex">
+	<div class="container class-flex">
         <section class="logo">
-            <?php
-            the_custom_logo();
-            if ( is_front_page() && is_home() ) :
-                ?>
-                <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <?php
-            else :
-                ?>
-                <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-            <?php
-            endif;
-            $pereedem_com_ua_description = get_bloginfo( 'description', 'display' );
-            if ( $pereedem_com_ua_description || is_customize_preview() ) :
-                ?>
-                <p class="site-description"><?php echo $pereedem_com_ua_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-            <?php endif; ?>
+            <?php the_custom_logo(); ?>
         </section>
         <nav class="nav">
             <?php
