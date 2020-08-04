@@ -2,6 +2,9 @@ $px: .06945;
 $pxmf: 3.841;
 $pxm: $px * $pxmf;
 
+html{
+  margin-top: 0!important;
+}
 @font-face {
   font-family: 'Aliceregular';
   src: url("../../fonts/Aliceregular.ttf") format("truetype");
@@ -101,6 +104,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .reklama_single {
@@ -109,6 +113,14 @@ body {
   border-radius: 10px;
   padding-bottom: 20px;
   margin: 10px auto;
+  position: relative;
+  .item_lnk{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
 }
 
 .reklama_single_gruzchiki {
@@ -213,7 +225,7 @@ a {
   }
 }
 
-.header_nav a, .contacts_phones a {
+.menu a, .contacts_phones a {
   text-decoration: none;
   color: white;
 }
@@ -388,9 +400,10 @@ section .logo {
 }
 
 .img_logo {
+
 }
 
-.logo img {
+.custom-logo-link img {
   width: 130px;
   height: auto;
 }
@@ -436,7 +449,7 @@ section .logo {
   cursor: pointer;
 }
 
-.nav {
+.menu-glavnoe-menyu-container {
   line-height: 137px;
   margin: auto;
 }
@@ -462,11 +475,7 @@ section .logo {
 }
 
 .class-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -568,7 +577,6 @@ section .logo {
 }
 
 .pre-service {
-  background-image: url("../img/pre-service-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -598,14 +606,12 @@ section .logo {
 
 .list-of-service {
   list-style: none;
-  padding-left: 0px;
-
-  > li::before {
-    content: url("../img/check_image.png");
-    height: 50px;
-    display: inline-block;
-    vertical-align: middle;
-    font-style: normal;
+  padding-left: 0;
+  li{
+    img{
+      margin-left: 0;
+      margin-right: 20px;
+    }
   }
 }
 
@@ -613,12 +619,7 @@ section .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
 
   img {
@@ -728,7 +729,6 @@ section .logo {
 
 .pre-footer {
   overflow: overlay;
-  background-image: url("../img/background-footer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -765,17 +765,24 @@ section .logo {
 
 .footer-nav {
   margin: auto 0;
+  .menu-glavnoe-menyu-container{
+    #primary-menu{
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      list-style: none;
 
-  ul {
-    list-style: none;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-
-    li a {
-      margin: auto 20px;
-      cursor: pointer;
-      color: black;
+      li{
+        line-height: 20px;
+        a {
+          margin: 20px 10px;
+          cursor: pointer;
+          color: black;
+          padding: 0;
+          display: block;
+        }
+      }
     }
   }
 }
@@ -1071,7 +1078,8 @@ section.our-services div h2 {
   z-index: 999;
   cursor: pointer;
 
-  &::before {
+
+  .main_button {
     display: block;
     position: fixed;
     content: "";
@@ -1080,7 +1088,6 @@ section.our-services div h2 {
     height: 80px;
     width: 80px;
     background-color: grey;
-    background-image: url(../img/left_bottom_button.svg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1157,35 +1164,30 @@ section.our-services div h2 {
 }
 
 .facebook {
-  background-image: url("../img/left_bottom_button_fb.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .instagram {
-  background-image: url("../img/left_bottom_button_insta.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .telegram {
-  background-image: url("../img/left_bottom_button_telega.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .viber {
-  background-image: url("../img/left_bottom_button_viber.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .mobile {
-  background-image: url("../img/left_bottom_button_mobile.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

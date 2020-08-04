@@ -59,7 +59,7 @@
 @media all and (max-width: 1110px) and (min-width: 919px)
 
 {
-.header_nav li a {
+.menu li a {
   font-size: 18px;
   padding: 10px;
   line-height: 26px;
@@ -97,6 +97,12 @@
 .class-flex{
   justify-content:center;
   text-align:center;
+  flex-direction: column;
+  .nav{
+    #primary-menu{
+      justify-content: center;
+    }
+  }
 
 }
 .group{
@@ -111,11 +117,11 @@ h6 {
   text-align:center;
 
 }
-.logo img {
+.custom-logo-link img {
   width: 300px;
 
 }
-.header_nav li a {
+.menu li a {
   font-size: 24px;
 
 }
@@ -245,7 +251,7 @@ h6 {
   color:white;
 
 }
-.logo img {
+.custom-logo-link img {
   width: 300px;
   margin-top: 30px;
 
@@ -563,25 +569,24 @@ display:-ms-flexbox;
 
 }
 .class-flex{
-  -webkit-box-orient:vertical;
-  -webkit-box-direction:normal;
-    -ms-flex-direction:column;
-      flex-direction:column;
-  -webkit-box-pack:center;
-    -ms-flex-pack:center;
-      justify-content:center;
+  flex-direction:column;
   text-align:center;
+  .nav{
+    #primary-menu{
+      justify-content: center;
+    }
+  }
 
 }
 h6 {
   text-align:center;
 
 }
-.logo img {
+.custom-logo-link img {
   width: 300px;
 
 }
-.header_nav li a {
+.menu li a {
   font-size: 14px;
   padding: 20px 8px;
 
@@ -743,7 +748,7 @@ h6 {
   color:white;
 
 }
-.logo img {
+.custom-logo-link img {
   width: 200px;
   margin-top: 30px;
 
@@ -959,11 +964,11 @@ div.additional-services{
   width: 100%;
 
 }
-.footer-nav ul li a {
+.menu ul li a {
   margin:auto 6px;
 
 }
-.footer-nav ul {
+.menu ul {
   padding: 0px;
 
 }
@@ -1175,7 +1180,7 @@ list-style:none;
 z-index: 999;
 cursor:pointer;
 }
-.bottom_batton::before{
+.bottom_batton .main_button{
   content: "";
   display:block;
   position:fixed;
