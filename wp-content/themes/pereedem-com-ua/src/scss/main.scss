@@ -17,7 +17,6 @@ html{
 
 body {
   width: 100%;
-  margin: 0;
   margin: 0 auto;
   padding: 0;
   background-color: white;
@@ -26,7 +25,44 @@ body {
   font-family: 'Montserrat', sans-serif;
   max-width: 1600px;
 }
-
+.costs-header{
+  min-height: 220px;
+  padding-top: 50px;
+}
+#costs{
+  max-width: 1064px;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  .type-costs{
+    .entry-content{
+      width: 100%;
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        tr{
+          td{
+            padding: 10px 20px;
+          }
+        }
+      }
+    }
+    .post-thumbnail{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+    .entry-header{
+      .entry-title{
+        font-size: 33px!important;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+  }
+}
 .blure {
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);

@@ -504,6 +504,31 @@ display:-ms-flexbox;
 @media all and (max-width: 659px) and (min-width: 300px)
 
 {
+  #costs{
+    .type-costs{
+      .entry-content{
+        table{
+          tr{
+            th{
+              padding: 5px 10px;
+              font-size: 10px;
+            }
+            td{
+              padding: 5px 10px;
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  table{
+    tr{
+      td{
+        padding: 5px 10px;
+      }
+    }
+  }
 .container{
   max-width: 860px !important;
   width: 90% !important;
@@ -934,7 +959,6 @@ div.additional-services{
 }
 .button-cancel{
   position:fixed;
-  background-image: url("../img/cancel.svg");
   background-repeat:no-repeat;
   background-size:cover;
   border-radius: 50%;

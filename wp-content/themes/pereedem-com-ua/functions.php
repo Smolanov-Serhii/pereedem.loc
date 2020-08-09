@@ -275,7 +275,8 @@ add_action( 'widgets_init', 'pereedem_com_ua_widgets_init' );
  */
 function pereedem_com_ua_scripts() {
     wp_enqueue_style('pereedem-com-ua-style', get_template_directory_uri() . '/dist/css/style.css', array(), '1.0.0', false);
-    wp_enqueue_script('pereedem-com-ua-js', get_template_directory_uri() . '/dist/js/common.js', array(), '1.0.0', true);
+    wp_enqueue_script('pereedem-com-ua-js', get_template_directory_uri() . '/js/jquery.spincrement.min.js', array(), '1.0.0', true);
+    wp_enqueue_script('pereedem-com-ua-jsmain', get_template_directory_uri() . '/dist/js/common.js', array(), '1.0.0', true);
 	wp_style_add_data( 'pereedem-com-ua-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'pereedem-com-ua-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );

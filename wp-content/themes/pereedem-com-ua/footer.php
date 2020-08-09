@@ -72,7 +72,7 @@
     <div class="phone_btton_click phone_choise" style="background-image: url('<?php echo get_template_directory_uri()."/src/img/phone_button.svg" ?>')">
 
     </div>
-    <section class="button-cancel phone_choise_phone-hide">
+    <section class="button-cancel phone_choise_phone-hide" style="background-image: url('<?php echo get_template_directory_uri()."/src/img/cancel.svg" ?>')">
     </section>
 </section>
 

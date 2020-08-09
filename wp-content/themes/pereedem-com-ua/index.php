@@ -34,7 +34,7 @@
                             $alt = $image['alt'] ?>
                             <div class="reklama_single">
 							<span>
-							    <img src="<?php the_post_thumbnail_url( 'full' );?>" alt="<?php the_field('opisanie_kartinki') ?>">
+							    <img src="<?php the_field('kartinka_dlya_kartinki_mashiny_v_tarify');?>" alt="<?php the_field('opisanie_kartinki') ?>">
                             </span>
                                 <a class="item_lnk" href="<?php the_permalink(); ?>"></a>
                                 <p class="tarif">Тариф</p>
