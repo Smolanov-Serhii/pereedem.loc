@@ -23,7 +23,7 @@ body {
 
   /* font-family: 'Comfortaa', cursive; */
   font-family: 'Montserrat', sans-serif;
-  max-width: 1600px;
+  //max-width: 1600px;
 }
 .costs-header{
   min-height: 220px;
@@ -422,9 +422,12 @@ h6 {
   margin: auto;
 }
 
-.container_index h1 {
-  text-indent: 1.5em;
-  text-transform: inherit;
+.container_index{
+  padding-top: 50px;
+  h1 {
+    text-indent: 1.5em;
+    text-transform: inherit;
+  }
 }
 
 .container_index_red > h3 {

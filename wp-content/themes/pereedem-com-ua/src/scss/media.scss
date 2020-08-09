@@ -558,14 +558,21 @@ display:-ms-flexbox;
   font-size: 20px !important;
 
 }
-.list-of-service h5 {
-  color:black;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  text-transform:lowercase;
-  padding-left: 5px;
-  line-height: 30px;
-
+.list-of-service{
+  h5 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-transform: lowercase;
+    padding-left: 5px;
+    line-height: 30px;
+  }
+  li{
+    img{
+      width: 50px;
+      height: auto;
+    }
+  }
 }
 .ablolute_price_gruz .absolute_price {
   color:red;
@@ -1053,7 +1060,7 @@ section.services{
 
 }
 .pre-footer{
-  background-position-x: -442px;
+  background-position-x: right;
 
 }
 div.forma-top{
