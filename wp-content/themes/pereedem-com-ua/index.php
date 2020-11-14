@@ -78,7 +78,7 @@
                                             </span>
                                                 <span class="group">
                                                 <div class="table_header">
-                                                    <?php the_content(); ?>
+                                                    <?php the_field('tekst_na_glavnuyu') ?>
                                                 </div>
                                             </span>
                                     <?php }
@@ -136,46 +136,32 @@
     <div class="additional-services container">
         <article>Так-же хотим предоставим Вам дополнительные услуги для обеспечения целостности Ваших ценных и хрупких вещей. Упавковка в гофрокартон, транспортную плёнку, коробки. Все эти услугиВы можете оговорить при заказе машины.</article>
         <div class="additional-services-description-content">
-            <dic class="additional-services-description-content-container">
-				<span class="additional-services-description-content-container_img"><img src="<?php echo get_template_directory_uri()?>/src/img/upakovka.png" alt="Упаковка грузов компанией Переедем.Киев.UA">
-				<div class="additional-services-carts">
-				<h5>упаковка</h5>
-				<hr>
-					<span>Упаковка в коробки с
-							заклеиванием скотчем,
-							или упаковка в стрейч-пленку и
-							гофрокартон
-					</span>
-				</div>
-            </dic>
-            <dic class="additional-services-description-content-container">
-				<span class="additional-services-description-content-container_img"><img src="<?php echo get_template_directory_uri()?>/src/img/razborka.png" alt="сборка и разборка мебели и
-							других крупногабаритных
-							предметов перед
-							транпортировкой">
-				<div class="additional-services-carts">
-				<h5>сборка-разборка</h5>
-				<hr>
-					<span>сборка и разборка мебели и
-							других крупногабаритных
-							предметов перед
-							транпортировкой
-					</span>
-				</div>
-            </dic>
-            <dic class="additional-services-description-content-container">
-				<span class="additional-services-description-content-container_img"><img src="<?php echo get_template_directory_uri()?>/src/img/gruzchiki.png" alt="услуги грузчиков для
-							спуска и подъёма грузов
-							на этаж или на улицу">
-				<div class="additional-services-carts">
-				<h5>грузчики</h5>
-				<hr>
-					<span>услуги грузчиков для
-							спуска и подъёма грузов
-							на этаж или на улицу
-					</span>
-				</div>
-            </dic>
+            <?php
+            $args = array(
+                'post_type' => 'services',
+//                        'category__in' => 3, //из какой категории вывести (удалите эту строку, если хотите, чтобы показовало последние материалы из всех рубрик сразу)
+                'showposts' => "", //сколько показать статей
+                'orderby' => "data", //сортировка по дате
+                'caller_get_posts' => 1);
+            $my_query = new wp_query($args);
+            if ($my_query->have_posts()) {
+                while ($my_query->have_posts()) {
+                    $my_query->the_post();
+                    $image = get_sub_field('image');
+                    $alt = $image['alt'] ?>
+                    <a href="<?php the_permalink(); ?>" class="additional-services-description-content-container">
+                        <span class="additional-services-description-content-container_img"><img src="<?php the_field('service_kartinka_na_glavnuyu') ?>" alt="<?php the_field('service_tekst_na_glavnuyu') ?>">
+                        <div class="additional-services-carts">
+                        <h3><?php the_field('service_zagolovok_dlya_glavnoj_straniczy') ?></h3>
+                        <hr>
+                            <span>
+                                <?php the_field('service_tekst_na_glavnuyu') ?>
+                            </span>
+                        </div>
+                    </a>
+                <?php }
+            }
+            wp_reset_query(); ?>
         </div>
     </div>
 </section>

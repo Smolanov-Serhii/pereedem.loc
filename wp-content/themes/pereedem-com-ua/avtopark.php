@@ -34,28 +34,6 @@
         </section>
     </div>
     </section>
-	<section id="header_avtopark">
-		<div class="class-width">
-			<section class="content-header">
-				<div class="content-header-text">
-					<span class="text">
-						В автопарке только новые и чистые автомобили с пунктуальными и ответственными водителями
-					</span>
-				</div>
-				<div class="header-button">
-					<span class="header-button-text">
-						Рассчитаем стоимость перевозки вашего груза за 15 минут
-					</span>
-					<br>
-					<span class="header-button-button">
-						<div class="button-zakaz">
-							РАСЧИТАТЬ СТОИМОСТЬ
-						</div>
-					</span>
-				</div>
-			</section>
-		</div>
-	</section>
 <section class="devider">
 	<div class="container">
 		<h1>Грузоперевозки осуществляются исключительно современными, исправными и чистыми автомобилями для обеспечения чистоты и сохранности ваших вещей. Мы бережно относимся к личным вещам и предметам наших клиентов как при выносе-заносе, так и при перевозке. Автомобиль подбирается исходя из потребностей клиента учитывая тип, габариты и количество грузов.</h1>
