@@ -132,7 +132,7 @@
     </div>
 </section>
 <section class="additional-services">
-    <h2 class="teg_h1" class="blue-article">дополнительные услуги</h2>
+    <h2 class="teg_h1 blue-article">дополнительные услуги</h2>
     <div class="additional-services container">
         <article>Так-же хотим предоставим Вам дополнительные услуги для обеспечения целостности Ваших ценных и хрупких вещей. Упавковка в гофрокартон, транспортную плёнку, коробки. Все эти услугиВы можете оговорить при заказе машины.</article>
         <div class="additional-services-description-content">

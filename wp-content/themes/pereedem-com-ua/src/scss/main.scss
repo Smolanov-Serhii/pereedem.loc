@@ -170,6 +170,9 @@ body {
   height: auto;
   background-color: white;
   border-radius: 10px;
+  table{
+    width: 100%;
+  }
 
   /* padding-bottom: 20px; */
   margin: 10px auto;
@@ -931,10 +934,8 @@ div.forma-top {
     background-color: white;
     text-align: center;
 
-    > {
-      span {
-        font-family: Geometria;
-        font-weight: 200;
+    >span {
+      font-weight: bolder;
         font-size: 30px;
         margin: 20px auto 10px auto;
         color: red;
@@ -956,7 +957,7 @@ div.forma-top {
         border: 2px solid gray;
         font-size: 20px;
       }
-    }
+
   }
 }
 
@@ -1269,6 +1270,11 @@ section.our-services div h2 {
     height: auto;
     cursor: pointer;
     display: block;
+    background-position: center;
+    transition: 0.3s;
+    &:hover{
+      transform: scale(1.2);
+    }
 
     a {
       width: 100%;

@@ -33,10 +33,10 @@
         <div class="phone"><a href="tel: +380639377790"><h6>+38 (063) 937-77-90</h6></a></div>
 
         <div class="social_modal">
-            <span class="telegram"><a href="https://t-do.ru/pereedemkievua"></a></span>
-            <span class="viber"><a href="viber://add?number=380667159235"></a></span>
-            <span class="facebook"><a href="https://www.facebook.com/pereedem.kiev.ua/" ></a></span>
-            <span class="instagram"><a href="https://www.instagram.com/pereedem.kiev.ua/" ></a></span>
+            <span class="telegram" style="background-image: url('<?php echo get_template_directory_uri()?>/src/img/left_bottom_button_telega.svg');"><a href="https://t-do.ru/pereedemkievua"></a></span>
+            <span class="viber" style="background-image: url('<?php echo get_template_directory_uri()?>/src/img/left_bottom_button_viber.svg');"><a href="viber://add?number=380667159235"></a></span>
+            <span class="facebook" style="background-image: url('<?php echo get_template_directory_uri()?>/src/img/left_bottom_button_insta.svg');"><a href="https://www.facebook.com/pereedem.kiev.ua/" ></a></span>
+            <span class="instagram" style="background-image: url('<?php echo get_template_directory_uri()?>/src/img/left_bottom_button_fb.svg');"><a href="https://www.instagram.com/pereedem.kiev.ua/" ></a></span>
             <!-- <li class="mobile"><a href="tel:+380672114343" ></a></li> -->
         </div>
         <!-- <input type="text" name="name" placeholder="ИМЯ:" required>
