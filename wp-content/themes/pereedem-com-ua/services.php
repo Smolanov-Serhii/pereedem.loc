@@ -45,54 +45,43 @@
 	</div>
 </section>
 <section class="our-services">
-	<div class="content-section-services light-light-gray">
-		<div class="container">
-			<h2>
-				УПАКОВКА
-			</h2>
-			<div class="content-single-our-service">
-				<div class="img-ou-service">
-					<img src="<?php echo get_template_directory_uri()?>/src/img/service_upakovka.jpg" alt="Упаковка грузов и вещей в плёнку и коробки компанией pereedem.kiev.ua">
-				</div>
-				<div class="content-our-service section-row">
-					<p>Очень важным этапом для переезда является упаковка вещей и предметов по коробкам для избежания их повреждения. Компания предоставляет такую услугу как упаковка в коробки, стрейч пленку или пленку с пузырьками. Все что Вам необходимо то это при заказе услуг уведомить об этом оператора и сагласовать перечень всех необходимых Вам услуг, это обеспечит сохранность Ваших вещей и хорошего настроения при переезде.</p>
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="content-section-services">
-		<div class="container">
-			<h2>
-				РАЗБОРКА МЕБЕЛИ
-			</h2>
-			<div class="content-single-our-service section-reverse">
-				<div class="img-ou-service">
-					<img src="<?php echo get_template_directory_uri()?>/src/img/service-razborka.jpg" alt="Услуги по разборук и сборке корпусной и мягкой мебели сотрудниками компании pereedem.kiev.ua">
-				</div>
-				<div class="content-our-service">
-					<p>Часто получается так что вроде-бы все учли, и машину вызвали и грузчиков наняли, но вот незадача, некоторая мебель не пролазиет в дверной проем либо в коридоре с ней не розвернуться. И в этом случае необходимо разбирать крупногабаритную мебель, такую как: шкафы-купе, угловой диван, и т.п.. Наши специалисты Вам в этом помогут так как имеют опыт и инструмент. Что-бы учесть такой нюанс Вам необходимо просто сказать об этом оператору.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="content-section-services light-light-gray">
-		<div class="container">
-			<h2>
-				ГРУЗЧИКИ
-			</h2>
-			<div class="content-single-our-service">
-				<div class="img-ou-service">
-					<img src="<?php echo get_template_directory_uri()?>/src/img/service-gruzchiki.jpg" alt="Предоставление услуги грузчиков по выносу и заносу личных вещей, строительных материалов, мебели компанией pereedem.kiev.ua">
-				</div>
-				<div class="content-our-service section-row">
-					<p>В штате компании имеются опытные, внимательные и аккуратные грузчики. Заранее можно попросить оператора чтобы приехали грузчики и помогли разобрать, упаковать и вынести Ваши вещи на улицу до прибытия машины, это сэкономит Ваше и наше время, и сэкономит Вам Ваши средства и время.</p>
-				</div>
-			</div>
-		</div>
+            <?php
+            $args = array(
+                'post_type' => 'types-mov',
+//                        'category__in' => 3, //из какой категории вывести (удалите эту строку, если хотите, чтобы показовало последние материалы из всех рубрик сразу)
+                'showposts' => "", //сколько показать статей
+                'orderby' => "data", //сортировка по дате
+                'caller_get_posts' => 1);
+            $my_query = new wp_query($args);
+            if ($my_query->have_posts()) {
+                while ($my_query->have_posts()) {
+                    $my_query->the_post();
+                    $image = get_sub_field('image');
+                    $alt = $image['alt'] ?>
+                    <a href="<?php the_permalink(); ?>" class="container">
+                        <div class="content-single-our-service">
+                            <div class="img-ou-service">
+                                <img src="<?php the_field('kartinka_dlya_tipa_perevozki') ?>">
+                            </div>
+                            <div class="content-our-service">
+                                <h2>
+                                    <?php the_title() ?>
+                                </h2>
+                                <?php the_field('opisanie_tipa_perevozki_na_glavnuyu') ?>
+                            </div>
+                        </div>
+                    </a>
+                <?php }
+            }
+            wp_reset_query(); ?>
 	</div>
 	<div class="services-description container opisanie_avtopark">
 		<article>
-			Для Вашего удобства компания предлагает полный перечень услуг по переезду: офисов, квартир, транспортировке предметов быта, корпусной мебели, мягкой мебели, строительных и других крупногабаритных предметов и материалов. Все что требуется, то это позвонить или оставить заявку оператору и он Вам предложит услуги компании для максимального Вашего комфорта. С нами Вам не придется ни о чем думать, достаточно озвучить нам Ваши пожелания.
+            <?php
+            $content = get_the_content('читать далее');
+            echo apply_filters( 'the_content', $content );
+            ?>
 		</article>
 	</div>
 </section>

@@ -202,7 +202,10 @@ h6 {
 }
 .img-ou-service{
   width: 80%;
-
+  margin: auto;
+  img{
+    margin: auto!important;
+  }
 }
 .opisanie_avtopark{
   width: 80% !important;
@@ -692,7 +695,8 @@ h6 {
   height:auto;
   border-radius: 10px;
   box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
-
+  margin-right: 0!important;
+  margin-left: 0!important;
 }
 .footer-all-content{
   -webkit-box-orient:vertical;
@@ -731,13 +735,16 @@ h6 {
 }
 .img-ou-service{
   width: 100%;
-
+  img{
+    margin-left: 0!important;
+    margin-right: 0!important;
+  }
 }
 .opisanie_avtopark{
   width: 90% !important;
   font-weight: 800;
   font-size: 20px;
-  margin-top: 20px auto;
+  margin-top: 20px;
 
 }
 .content-our-service{
