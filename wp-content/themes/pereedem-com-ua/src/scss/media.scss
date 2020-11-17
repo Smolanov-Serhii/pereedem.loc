@@ -692,6 +692,11 @@ display:-ms-flexbox;
         margin-top: 0;
         li{
           line-height: 58px;
+          &:hover{
+            a{
+              color: red;
+            }
+          }
           &.current-menu-item{
             a{
               color: red!important;
@@ -707,6 +712,9 @@ display:-ms-flexbox;
             padding: 20px;
             font-size: 18px;
             border: none;
+            &:hover{
+              color: red!important;
+            }
             &:visited{
               color: white;
             }
