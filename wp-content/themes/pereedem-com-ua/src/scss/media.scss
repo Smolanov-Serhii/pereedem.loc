@@ -504,12 +504,19 @@ display:-ms-flexbox;
 }
 }
 
-@media all and (max-width: 659px) and (min-width: 300px)
-
+@media all and (max-width: 716px) and (min-width: 300px)
 {
+
   #costs{
+    .entry-thumbnail, p{
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
     .type-costs{
       .entry-content{
+
         table{
           tr{
             th{
@@ -601,12 +608,112 @@ display:-ms-flexbox;
 }
 .tarif_description{
   font-size: 14px !important;
-
 }
 .class-flex{
-  flex-direction:column;
+  flex-direction:row;
   text-align:center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  .contacts{
+    display: none;
+  }
+  .burger-button{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: space-between;
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    &.active{
+      z-index: 9999;
+      position: fixed;
+      top: 50px;
+      right: 0;
+      span{
+        &:nth-child(2){
+          display: none;
+        }
+        &:first-child{
+          transform-origin: center;
+          transform: translate(0%, 18px) rotate(45deg) ;
+
+        }
+        &:last-child{
+          transform-origin: center;
+          transform: translate(0%, -18px) rotate(-45deg) ;
+        }
+      }
+    }
+    span{
+      width: 100%;
+      height: 4px;
+      background-color: white;
+      display: block;
+    }
+  }
+  .custom-logo{
+    width: 100px;
+  }
   .nav{
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    &:before{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.8);
+      content: "";
+      display: block;
+    }
+    .menu-glavnoe-menyu-container{
+      z-index: 9999;
+      height: 100%;
+      width: calc(90% - 100px);
+      margin: 0 0 0 auto;
+      background-color: #103D67;
+      position: relative;
+      .menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column!important;
+        height: 100%;
+        justify-content: flex-start!important;
+        padding-top: 100px!important;
+        padding-left: 30px;
+        margin-top: 0;
+        li{
+          line-height: 58px;
+          &.current-menu-item{
+            a{
+              color: red!important;
+            }
+          }
+          a{
+            color: white;
+            display: block;
+            text-align: left;
+            text-decoration: none;
+            text-transform: uppercase;
+            background-color: transparent;
+            padding: 20px;
+            font-size: 18px;
+            border: none;
+            &:visited{
+              color: white;
+            }
+          }
+        }
+      }
+    }
     #primary-menu{
       justify-content: center;
     }

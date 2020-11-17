@@ -22,6 +22,11 @@ $(document).ready(function () {
 
 });
 
+$('.burger-button').click(function() {
+    $('.nav').fadeToggle(300);
+    $(this).toggleClass('active');
+});
+
 $('.button-zakaz, .button-zakaz_reklama').click(function() {
     $('div.forma-top').show();
     $('.modal').removeClass('blur');
