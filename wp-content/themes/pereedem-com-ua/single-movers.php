@@ -42,6 +42,11 @@
                     );
                     ?>
                 </nav>
+                <div class="burger-button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <section class="contacts">
                     <div class="contacts_phones">
                         <div class="phone"><a href="tel: +380667159235"><h6>+38 (066) 715-92-35</h6></a></div>
