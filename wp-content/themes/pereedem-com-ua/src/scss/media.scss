@@ -530,6 +530,7 @@ display:-ms-flexbox;
     }
   }
   .exavators-list{
+    padding-top: 0;
     &__mobile{
       display: flex;
       justify-content: center;
@@ -559,7 +560,18 @@ display:-ms-flexbox;
       display: flex;
       flex-direction: column;
       &:nth-child(4){
-        margin: 0;
+        margin: 0 auto;
+        .exavators-list__image{
+          width: calc(60% - 30px);
+          margin-right: 16px;
+        }
+        .exavators-list__mobile-price{
+          margin-bottom: 0;
+          padding-top: 0!important;
+        }
+        .wrapper-komb{
+          width: 40%;
+        }
         padding-bottom: 10px!important;
       }
       h3{
