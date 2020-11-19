@@ -65,25 +65,38 @@
             'caller_get_posts' => 1);
         $my_query = new wp_query($args);
         if ($my_query->have_posts()) {
+            $counter = 0;
             while ($my_query->have_posts()) {
                 $my_query->the_post();
                 $image = get_sub_field('image');
+                $counter =  $counter + 1;
                 $alt = $image['alt'] ?>
+
                 <a href="<?php the_permalink(); ?>" class="exavators-list__item" style="padding-bottom: 10px">
 							<span class="exavators-list__image">
 							    <img src="<?php the_field('kartinka_dlya_glavnoj_komb');?>" alt="<?php the_field('opisanie_komb') ?>">
                             </span>
+                    <?php
+                        if ($counter = 4){
+                            echo '<div class="wrapper-komb">';
+                        }
+                    ?>
                     <h3><?php the_title(); ?></h3>
                     <div class="exavators-list__mobile">
                         <div class="exavators-list__mobile-price" style="padding-top: 20px">
-                            <?php the_field('stoimost_chasa_komb') ?> <span>грн/га</span>
+                            <?php the_field('stoimost_chasa_komb') ?> <span><?php the_field('edinicza_izmereniya') ?></span>
                         </div>
                     </div>
                     <table>
                         <tr>
-                            <td>Стоимость</td><td><?php the_field('stoimost_chasa') ?> грн/га</td>
+                            <td>Стоимость</td><td><?php the_field('stoimost_chasa_komb') ?><?php the_field('edinicza_izmereniya') ?></td>
                         </tr>
                     </table>
+                    <?php
+                    if ($counter = 4){
+                        echo "</div>";
+                    }
+                    ?>
                 </a>
             <?php }
         }
