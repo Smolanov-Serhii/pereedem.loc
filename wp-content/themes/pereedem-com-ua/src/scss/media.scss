@@ -1,6 +1,14 @@
 @media all and (max-width: 1100px) and (min-width: 930px)
 
 {
+  .exavators-list{
+    &__item{
+      margin-bottom: 30px;
+      h3{
+        font-size: 20px;
+      }
+    }
+  }
 .container{
   width: 860px !important;
 
@@ -63,9 +71,6 @@
   font-size: 18px;
   padding: 10px;
   line-height: 26px;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   cursor:pointer;
 
@@ -74,6 +79,18 @@
 @media all and (max-width: 929px) and (min-width: 660px)
 
 {
+  .exavators-list{
+    &__item{
+      margin-bottom: 30px;
+      padding: 20px;
+      h3{
+        font-size: 16px!important;
+      }
+      table{
+        font-size: 14px;
+      }
+    }
+  }
 .container{
   max-width: 860px !important;
   width: 90% !important;
@@ -122,8 +139,8 @@ h6 {
 
 }
 .menu li a {
-  font-size: 24px;
-
+  font-size: 18px;
+  padding: 20px 10px;
 }
 .contacts_phones{
   display:none;
@@ -210,7 +227,6 @@ h6 {
 .opisanie_avtopark{
   width: 80% !important;
   margin:auto;
-  font-weight: 800;
   font-size: 30px;
 
 }
@@ -506,7 +522,51 @@ display:-ms-flexbox;
 
 @media all and (max-width: 716px) and (min-width: 300px)
 {
-
+  .exavator-page{
+    .content-header{
+      p{
+        font-size: 20px!important;
+      }
+    }
+  }
+  .exavators-list{
+    &__mobile{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__mobile-price{
+      color: red;
+      font-size: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+      span{
+        font-size: 12px;
+        color: black;
+      }
+    }
+    table{
+      display: none;
+    }
+    &__item{
+      margin-bottom: 30px;
+      padding: 10px 10px 30px 10px;
+      width: calc(33.3% - 10px);
+      display: flex;
+      flex-direction: column;
+      h3{
+        font-size: 14px!important;
+        display: none;
+      }
+      table{
+        font-size: 14px;
+      }
+    }
+  }
   #costs{
     .entry-thumbnail, p{
       img{
@@ -614,7 +674,7 @@ display:-ms-flexbox;
   text-align:center;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 0;
   .contacts{
     display: none;
   }
@@ -723,7 +783,43 @@ display:-ms-flexbox;
       }
     }
     #primary-menu{
+      .menu-item.current-menu-item.menu-item-has-children{
+        a{
+          color: white!important;
+          &:hover{
+            color: red!important;
+          }
+        }
+      }
       justify-content: center;
+      .menu-item-has-children{
+        background-color: #081f34;
+        &:hover{
+          a{
+            background-color: #081f34;
+            color: white!important;
+          }
+
+          background-color: #081f34;
+
+        }
+      }
+      .menu-item{
+        .sub-menu{
+          display: block;
+          opacity: 1;
+          pointer-events: all;
+          li{
+            padding-left: 20px;
+            &:hover{
+              a{
+                background-color: transparent;
+                color: red;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
@@ -831,7 +927,9 @@ h6 {
 }
 .footer-nav {
   margin:auto;
-
+  #primary-menu{
+    flex-wrap: wrap;
+  }
 }
 .header-button{
   -webkit-box-orient:vertical;
@@ -857,9 +955,9 @@ h6 {
 }
 .opisanie_avtopark{
   width: 90% !important;
-  font-weight: 800;
-  font-size: 20px;
-  margin-top: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 24px;
 
 }
 .content-our-service{

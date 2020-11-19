@@ -37,7 +37,7 @@
 							    <img src="<?php the_field('kartinka_dlya_kartinki_mashiny_v_tarify');?>" alt="<?php the_field('opisanie_kartinki') ?>">
                             </span>
                                 <a class="item_lnk" href="<?php the_permalink(); ?>"></a>
-                                <p class="tarif">Тариф</p>
+<!--                                <p class="tarif">Тариф</p>-->
                                 <p class="tarif_price"><?php the_field('czena') ?></p>
                                 <p class="tarif_description">грн/час</p>
                                 <p class="tarif_description"><?php the_field('gruzopodyomnost_i_obyom') ?><sup>3</sup></p>
