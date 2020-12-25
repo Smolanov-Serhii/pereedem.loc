@@ -93,6 +93,7 @@
 </section>
 <section class="devider">
     <div class="container_index container">
+        <h1 class="page-title"><?php the_field('h1_dlya_glavnoj_straniczy');?></h1>
         <?php
         $content = get_the_content('читать далее');
         echo apply_filters( 'the_content', $content );
